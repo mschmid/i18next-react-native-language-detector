@@ -1,7 +1,7 @@
 {
   "name": "i18next-react-native-language-detector",
   "version": "1.0.1",
-  "description": "React Native language detector for i18next.",
+  "description": "React Native language detector for i18next",
   "keywords": [
     "android",
     "i18n",
@@ -11,11 +11,17 @@
     "react-native"
   ],
   "license": "MIT",
-  "author": "Dylan Vann <dylan.vann@gmail.com> (dylanvann.com)",
+  "author": {
+    "name": "Chad Smith",
+    "email": "chad@developer.email"
+  },
   "main": "index.js",
-  "repository": "DylanVann/i18next-react-native-language-detector",
-  "peerDependencies": {
-    "react-native-locale-detector": "^1.0.0",
-    "i18next": "^3.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadsmith/i18next-react-native-language-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chadsmith/i18next-react-native-language-detector/issues"
+  },
+  "homepage": "https://github.com/chadsmith/i18next-react-native-language-detector#readme"
 }

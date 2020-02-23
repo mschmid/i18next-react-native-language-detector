@@ -1,4 +1,7 @@
-import locale from 'react-native-locale-detector'
+import { NativeModules } from 'react-native';
+
+const { RNI18n } = NativeModules;
+const locale = RNI18n ? RNI18n.locale.replace(/_/, '-') : '';
 
 export default {
   init: Function.prototype,
