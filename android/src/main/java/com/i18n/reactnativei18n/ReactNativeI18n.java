@@ -20,7 +20,7 @@ public class ReactNativeI18n implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // This method is kept for RN < 0.47 compatibility
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
